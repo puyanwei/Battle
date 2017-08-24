@@ -6,6 +6,8 @@ require 'rspec'
 require_relative '../app.rb'
 require 'simplecov'
 require 'simplecov-console'
+require 'features/web_helpers.rb'
+
 
 
 Capybara.app = Battle
